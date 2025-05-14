@@ -1,0 +1,101 @@
+.Uber-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .Uber-button:hover {
+    opacity: 0.6;
+  }
+
+  .Amazon-button {
+    background-color: rgb(245, 226, 13);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 56px;
+    padding-right: 56px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.15s;
+    vertical-align: top; 
+  }
+
+  .Amazon-button:hover {
+    background-color: rgb(233, 228, 83);
+  }
+
+  .Github-button {
+    background-color: rgb(88, 170, 111);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .Github-button:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  }
+
+  .Linkeldn-Application-button {
+    background-color: rgb(33, 99, 165);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s, box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .Linkeldn-Application-button:hover {
+    background-color: rgb(8, 8, 197);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .Linkeldn-Save-button {
+    background-color: white;
+    border-color: rgb(63, 63, 219);
+    border-style: solid;
+    color: rgb(63, 63, 219);
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+    vertical-align: top;
+  }
+
+  .Linkeldn-Save-button:hover {
+    background-color: rgb(67, 255, 255);
+    border-color: rgb(53, 179, 179);
+  }

@@ -1,0 +1,164 @@
+body {
+    height: 100vh;
+}
+
+.email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(173, 167, 167);
+}
+
+.input {
+    width: 100%;
+}
+
+.conditions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(173, 167, 167);
+    width: 100%;
+}
+
+.agree {
+    padding: 10px 70px;
+    background-color: rgb(0, 206, 206);
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 70px;
+    width: 100%;
+}
+
+.profile_pic {
+    width: 40px;
+    border-radius: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.happenings {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 80px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(173, 167, 167);
+}
+
+.tweet {
+    padding: 10px 30px;
+    background-color: rgb(0, 206, 206);
+    border: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.ride_request {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.pickup {
+    display: block;
+    margin-top: 10px;
+    width: 70%;
+    padding: 15px;
+}
+
+.pickup::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.destination {
+    display: block;
+    margin-top: 10px;
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.destination::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.request {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.schedule {
+    background-color: rgb(204, 202, 202);
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    vertical-align: top;
+    margin-left: 100px;
+}
+
+.profile_picture {
+    
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.friends {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.add {
+    background-color: rgb(33, 33, 223);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.profile_info {
+    background-color: rgb(189, 185, 185);
+}  
+
+.info {
+    
+}
+
+.profile_info_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

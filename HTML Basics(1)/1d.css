@@ -1,0 +1,63 @@
+.Link {
+    font-size: large;
+    color: rgb(0, 113, 133);
+    transition: color 0.15s;
+  }
+  
+  .Link:hover {
+    color: red;
+  }
+
+  .Product {
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+
+  .Price {
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(0, 118, 0);
+  }
+
+  .Delivery {
+    font-size: large;
+  }
+
+  .Cart {
+    font-size: large;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 40px;
+    width: 135px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .Cart:hover {
+    background-color: rgb(255, 213, 5);
+  }
+
+  .Cart:active {
+    opacity: 0.2;
+  }
+
+  .Buy {
+    font-size: large;
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 40px;
+    width: 135px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 7px;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .Buy:hover {
+    background-color: rgb(255, 153, 0);
+  }
+
+  .Buy:active {
+    opacity: 0.2;
+  }
