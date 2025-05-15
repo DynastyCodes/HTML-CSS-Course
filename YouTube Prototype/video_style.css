@@ -48,3 +48,20 @@
     grid-template-columns: 1fr;
     margin-bottom: 10px;
 }
+
+.thumbnail {
+    position: relative;
+}
+
+.timestamp {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    bottom: 15px;
+    right: 10px;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
