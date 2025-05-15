@@ -1,12 +1,12 @@
 .video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 40px;
+    column-gap: 20px;
     row-gap: 15px;
 }
 
 .video_image {
-    width: 400px;
+    width: 100%;
 }
 
 .profile_image {
@@ -41,4 +41,10 @@
 .video_info {
     display: grid;
     grid-template-columns: 50px 1fr;
+}
+
+.video_image_info {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
 }
