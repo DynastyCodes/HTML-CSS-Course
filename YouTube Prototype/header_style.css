@@ -44,6 +44,7 @@
     border: 1px;
     background-color: rgb(247, 247, 247);
     margin-right: 18px;
+   
 }
 
 .mic_icon_button {
@@ -85,8 +86,12 @@
 }
 
 .right_section {
-    background-color: lightblue;
     width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 28px;
 }
 
 .create_icon {
@@ -97,10 +102,11 @@
     width: 30px;
 }
 
-.notifications_icon {
+.notification_icon {
     width: 30px;
 }
 
 .profile_image_icon {
-    width: 30px;
+    width: 40px;
+    border-radius: 20px;
 }
