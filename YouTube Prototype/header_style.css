@@ -10,6 +10,9 @@
     right: 0;
     left: 0;
     background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(224, 217, 217);
 }
 
 .left_section {
