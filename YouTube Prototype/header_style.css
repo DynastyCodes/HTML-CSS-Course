@@ -13,6 +13,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(224, 217, 217);
+    z-index: 100;
 }
 
 .left_section {
