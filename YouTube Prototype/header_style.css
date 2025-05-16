@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 0;
+    
 }
 
 
@@ -55,6 +55,7 @@
     border: 1px;
     background-color: rgb(247, 247, 247);
     margin-right: 18px;
+    position: relative;
    
 }
 
@@ -85,6 +86,7 @@
     border-style: solid;
     border: 1px;
     font-size: 25px;
+    width: 0;
 }
 
 .input::placeholder {
@@ -139,4 +141,23 @@
     font-weight: 500;
     top: -6px;
     right:-3px;
+}
+
+.search_icon_button .tooltip {
+    position: absolute;
+    background-color: rgb(163, 157, 157);
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    left: 0;
+    bottom: -35px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.search_icon_button:hover .tooltip {
+    opacity: 1;
 }
